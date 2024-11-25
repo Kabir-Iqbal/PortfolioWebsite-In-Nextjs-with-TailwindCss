@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom card class */
+.card {
+    @apply w-72 h-72 md:w-64 md:h-64 bg-slate-500 flex flex-col text-center justify-center  rounded-b-lg cursor-pointer hover:scale-110 ;
+  }
+  
+  /* Card-pics */
+  .style{
+    @apply w-20 h-20 mb-6 mx-auto rounded-[100%]; 
+  }
+  
+  /* H3 in card */
+  
+  .style-font{
+    @apply text-xl my-2 font-semibold;
+  }
+  
+  .h2-code{
+    @apply text-2xl font-bold text-center my-12;
+  }
+  
+  
+  /* Contact */
+  .contact-p{
+    @apply text-xl font-semibold mt-2 mb-1;
+  }
